@@ -48,3 +48,18 @@
 * idea中修改：git commit -m "update"
 * 远程github修改：本地git pull
 
+### 补充
+
+* ```
+  warning: LF will be replaced by CRLF in ......  The file will have its original line endings in your working directory.  
+  ```
+
+解决方法：
+
+git config --global core.autocrlf false就可以解决了。原因是路径中存在 / 的符号转义问题
+
+* 删除指定的远程仓库：
+
+  ```linux
+  git remote rm origin
+  ```
