@@ -12,7 +12,7 @@
 
 * 添加内容（biji.md）
 
-* (不需要往远程推的文件)  .gitignore   HELP.md  target(文件夹)-system.dul
+* (不需要往远程推的文件)  .gitignore   HELP.md  target(文件夹)-system.dll
 
 * .gitignore(notepad++)--(target/   HELP.md)
 
